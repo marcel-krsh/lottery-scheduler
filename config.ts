@@ -1,6 +1,6 @@
 export default {
   Lottery: {
-    mainnet: "0x890503cB01012952f08D1DB61900D61e4e5ac429",
+    mainnet: "0xFd04E25662C521c1A9222e6ca4f49f76302d359f",
     testnet: "0x5790c3534F30437641541a0FA04C992799602998",
   },
   Chainlink: {
