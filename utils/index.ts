@@ -44,7 +44,7 @@ export const getEndTime = (): number => {
   if (meridiem === "AM") {
     // We are in the morning (ante-meridiem), next lottery is at 12:00 PM (noon).
     return moment(`${now.format("MM DD YYYY")} 00:00:00 +0000`, "MM DD YYYY HH:mm:ss Z", true)
-      .add(36, "hours")
+      .add(24, "hours")
       .startOf("hour")
       .utc()
       .unix();
